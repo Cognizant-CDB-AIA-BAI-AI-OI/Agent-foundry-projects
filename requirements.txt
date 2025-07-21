@@ -1,0 +1,11 @@
+
+streamlit
+PyMuPDF
+python-dotenv
+google-genai
+PyPDF2
+easyocr
+pdf2image
+
+langchain-google-vertexai
+google-cloud-vision
