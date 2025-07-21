@@ -27,7 +27,7 @@ This is a quick demo and the code will be refined in future updates.
 ## 🚀 Setup Instructions
 
 ### ✅ STEP 1: Credentials
-Place your `GOOGLE APPLICATION CREDENTIALS` JSON file in the project folder.
+    Place your `GOOGLE APPLICATION CREDENTIALS` JSON file in the project folder.
 
 ### ✅ STEP 2: Environment Variables
 Create a `.env` file in the same directory with the following variables:
