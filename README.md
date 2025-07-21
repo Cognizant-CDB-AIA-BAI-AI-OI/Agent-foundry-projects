@@ -1,7 +1,7 @@
 # PDF-question-answering
 
-A lightweight Streamlit app to interact with PDFs using LLM-powered responses. 
-This is a quick demo and the code will be refined in future updates.
+- A lightweight Streamlit app to interact with PDFs using LLM-powered responses. 
+- This is a quick demo and the code will be refined in future updates.
 
 ---
 
