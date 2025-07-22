@@ -1,0 +1,8 @@
+streamlit
+PyMuPDF
+python-dotenv
+google-genai
+PyPDF2
+
+langchain-google-vertexai
+google-cloud-vision
