@@ -1,0 +1,7 @@
+python-dotenv
+google-genai
+google-generativeai 
+vertexai 
+langchain 
+pydantic 
+requests
