@@ -45,5 +45,5 @@ This project enables intelligent querying of PDF documents—both **natural text
 
     - 📮 Testing
         - Once the server is running, visit: `http://localhost:8000/docs`
-        - Upload your PDF file via the POST /query-pdf endpoint, then click "Execute" to view the response.
+        - Upload your PDF file via the `POST` `/query-pdf` endpoint, then click "Execute" to view the response.
       
