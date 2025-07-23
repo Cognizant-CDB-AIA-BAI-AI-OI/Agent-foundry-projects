@@ -17,10 +17,10 @@ def pdf_text_extraction(pdf_path):
 
 
 def pdf_query(
-        context, user_input, 
+        context, prompt, 
         client, generate_content_config, model
     ):
-    prompt = f"""PDF Context:\n{context}\n\nUser Question:\n{user_input}"""
+    prompt = f"""PDF Context:\n{context}\n\nUser Question:\n{prompt}"""
     
     try:
         response, _ = get_llm_response(
