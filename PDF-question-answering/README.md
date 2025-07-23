@@ -26,12 +26,24 @@ This project enables intelligent querying of PDF documents—both **natural text
 
     - Before running, ensure the following in `main.py`:
         ```python
-        model = "gemini-2.5-flash"  # or your preferred model from Vertex AI
         pdf_path = "path/to/document.pdf"
-        user_input = "Your question here"
         ```
     
     - Run the main script with:
         ```bash
         python main.py
         ```
+
+* ## 🌐 FastAPI Endpoint
+
+    You can also use this project via an HTTP API powered by FastAPI.
+    
+    - ▶️ Start the server
+        ```bash
+        python fast_api_app.py
+        ```
+
+    - 📮 Testing
+        - Once the server is running, visit: `http://localhost:8000/docs`
+        - Upload your PDF file via the POST /query-pdf endpoint, then click "Execute" to view the response.
+      
