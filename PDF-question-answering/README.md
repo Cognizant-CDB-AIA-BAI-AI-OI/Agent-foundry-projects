@@ -22,7 +22,7 @@ This project enables intelligent querying of PDF documents—both **natural text
         pip install -r requirements.txt
         ```
 
-* ## 🚀 How to Run
+* ## 🚀 Run the script
 
     - Before running, ensure the following in `main.py`:
         ```python
