@@ -1,5 +1,5 @@
 # 📦 Import necessary functions
-from utils import setup_env_and_llm                         # Initializes environment and language model
+from utils import setup_env_and_llm                        # Initializes environment and language model
 from pdf_qa import pdf_text_extraction, pdf_query          # Functions for extracting text and querying PDFs
 
 
