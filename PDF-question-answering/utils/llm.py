@@ -49,6 +49,15 @@ def llm_config_setup(
     if sys_prompt:
         config_dict["system_instruction"] = [types.Part.from_text(text=sys_prompt)]
 
+    try:
+        from inputs import response_type, response_schema
+        if response_type:
+            config_dict["response_mime_type"] = response_type
+        if response_schema:
+            config_dict["response_schema"] = response_schema
+    except:
+        pass
+
     return types.GenerateContentConfig(**config_dict)
 
 
