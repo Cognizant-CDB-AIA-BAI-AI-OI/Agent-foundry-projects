@@ -20,7 +20,7 @@ def pdf_query(
         context, prompt, 
         client, generate_content_config, model
     ):
-    prompt = f"""PDF Context:\n{context}\n\nUser Question:\n{prompt}"""
+    prompt = f"""PDF Context:\n{context}\n\n{prompt}"""
     
     try:
         response, _ = get_llm_response(
