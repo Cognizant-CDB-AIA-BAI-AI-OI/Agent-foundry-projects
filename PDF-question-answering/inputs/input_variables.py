@@ -4,7 +4,7 @@ model="gemini-2.5-flash"
 # pdf_path = r"C:\Users\2403778\OneDrive - Cognizant\Desktop\CTS Usecases\PDF-QA\sample_pdfs\9871234.pdf"
 
 # user_input = "Give me 5 bullet points about this document."
-user_input = """You are an expert data-extraction assistant for real-estate documents.  
+prompt = """You are an expert data-extraction assistant for real-estate documents.  
 Always respond with only valid JSON—no markdown, no commentary.
  
 TASK
