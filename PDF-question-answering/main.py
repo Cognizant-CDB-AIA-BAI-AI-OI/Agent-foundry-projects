@@ -1,7 +1,7 @@
 # 📦 Import necessary functions
 from utils import setup_env_and_llm                        # Initializes environment and language model
 from pdf_qa import pdf_text_extraction, pdf_query          # Functions for extracting text and querying PDFs
-from inputs import model, user_input                       # Inputs: model choice, and user query
+from inputs import model, prompt                       # Inputs: model choice, and user query
 
 
 # ✍️ Input: PDF file path
@@ -17,7 +17,7 @@ context = pdf_text_extraction(pdf_path)
 # 🤖 STEP 3: Ask the AI to answer the question using the PDF content
 response = pdf_query(
     context,
-    user_input,
+    prompt,
     client,
     generate_content_config,
     model
