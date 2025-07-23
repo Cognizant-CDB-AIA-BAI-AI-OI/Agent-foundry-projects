@@ -2,6 +2,8 @@
 
 This project enables intelligent querying of PDF documents—both **natural text** and **scanned PDFs**—using a language model and vision model support when needed.
 
+---
+
 * ## 🛠️ Prerequisites
 
 Ensure the following setup steps are completed before running the script:
