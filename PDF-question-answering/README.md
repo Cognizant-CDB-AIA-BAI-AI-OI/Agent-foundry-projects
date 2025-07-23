@@ -2,7 +2,7 @@
 
 This project enables intelligent querying of PDF documents—both **natural text** and **scanned PDFs**—using a language model and vision model support when needed.
 
-## 🛠️ Prerequisites
+* ## 🛠️ Prerequisites
 
 Ensure the following setup steps are completed before running the script:
 
@@ -23,16 +23,16 @@ Install required packages using:
 pip install -r requirements.txt
 ```
 
-## 🚀 How to Run
+* ## 🚀 How to Run
 
-- Before running, ensure the following in `inputs\input_variables.py`:
-    ```python
-    model = "gemini-2.5-flash"  # or your preferred model from Vertex AI
-    pdf_path = "path/to/document.pdf"
-    user_input = "Your question here"
-    ```
-
-- Run the main script with:
-    ```bash
-    python main.py
-    ```
+    - Before running, ensure the following in `inputs\input_variables.py`:
+        ```python
+        model = "gemini-2.5-flash"  # or your preferred model from Vertex AI
+        pdf_path = "path/to/document.pdf"
+        user_input = "Your question here"
+        ```
+    
+    - Run the main script with:
+        ```bash
+        python main.py
+        ```
