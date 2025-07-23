@@ -7,17 +7,17 @@ This project enables intelligent querying of PDF documents—both **natural text
 * ## 🛠️ Prerequisites
 
     Ensure the following setup steps are completed before running the script:
+
+    - Place your **Google Cloud Application Credentials** (`.json` file) into the project directory.
     
-    1. Place your **Google Cloud Application Credentials** (`.json` file) into the project directory.
-    
-    3. Create a `.env` file with the following keys:
+    - Create a `.env` file with the following keys:
         ```env
         GOOGLE_APPLICATION_CREDENTIALS=your_credentials.json
         PROJECT_ID=your_project_id
         LOCATION=your_location
         ```
     
-    5. Install required packages using:
+    - Install required packages using:
         ```bash
         pip install -r requirements.txt
         ```
