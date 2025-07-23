@@ -2,3 +2,7 @@ PyMuPDF
 python-dotenv
 google-genai
 google-cloud-vision
+
+fastapi
+python-multipart
+uvicorn
