@@ -9,13 +9,13 @@ pdf_path = "sample_pdfs\2072068.pdf" # Replace with your PDF file path
 user_input = "Give me 5 bullet points about this document."
 
 
-# ⚙️ Set up the client and generation config
+# ⚙️ STEP 1: Set up the env & llm
 client, generate_content_config = setup_env_and_llm()
 
-# 📄 Extract text content from the specified PDF
+# 📄 STEP 2: Extract text content from the specified PDF
 context = pdf_text_extraction(pdf_path)
 
-# 🤖 Query the language model with extracted content and user's question
+# 🤖 STEP 3: Ask the AI to answer the question using the PDF content
 response = pdf_query(
     context,
     user_input,
