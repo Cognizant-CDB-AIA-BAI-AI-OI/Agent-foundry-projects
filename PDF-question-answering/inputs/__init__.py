@@ -1,5 +1,5 @@
 from .input_variables import (
-    model, user_input, 
+    model, prompt, 
     # pdf_path, 
     response_type, response_schema
 )
