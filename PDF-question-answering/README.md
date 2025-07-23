@@ -30,7 +30,7 @@ This project enables intelligent querying of PDF documents—both **natural text
 
 * ## 🚀 How to Run
 
-    - Before running, ensure the following in `inputs\input_variables.py`:
+    - Before running, ensure the following in `main.py`:
         ```python
         model = "gemini-2.5-flash"  # or your preferred model from Vertex AI
         pdf_path = "path/to/document.pdf"
