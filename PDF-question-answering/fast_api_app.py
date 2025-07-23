@@ -7,7 +7,7 @@ import os
 
 from utils import setup_env_and_llm                        # Initializes environment and language model
 from pdf_qa import pdf_text_extraction, pdf_query          # Functions for extracting text and querying PDFs
-from inputs import model, user_input                       # Imported input values
+from inputs import model, prompt                       # Imported input values
 
 # STEP 1: Set up the LLM client and config
 client, generate_content_config = setup_env_and_llm()
@@ -29,7 +29,7 @@ async def query_pdf(file: UploadFile = File(...)):
         # STEP 3: Query the model
         response = pdf_query(
             context,
-            user_input,
+            prompt,
             client,
             generate_content_config,
             model
